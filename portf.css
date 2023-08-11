@@ -1,0 +1,174 @@
+*{
+    margin:0;
+    padding:0;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+/* body{
+    background-color:white ;
+    color:black;
+} */
+navbar{
+    background-color:white;
+}
+.nav-link{
+    color: black;
+    font-size:1rem;
+    font-weight: 600;
+    cursor: pointer;
+    text-decoration: none;
+}
+.nav-link:hover{
+    color: white;
+    background-color: rgb(136, 25, 161);
+}
+.navbar-brand{
+    border: 2px solid white;
+    width: 55px;
+    font-size: 1.25rem;
+    font-weight: 700;
+    color: rgb(136, 25, 161);
+    cursor: pointer;
+    text-decoration: none;
+}
+.navbar-brand:hover{
+    background-color: rgb(136, 25, 161);
+}
+/* main section */
+.main{
+    background-image: url(Image/covermain.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 95vh;
+}
+.main h2{
+    font-size: 3.5rem;
+    font-weight: 600;
+}
+.main  h6{
+    font-size: 1.4rem;
+    text-transform: uppercase;
+    line-height: 1;
+    border-bottom: 3px solid rgb(136, 25, 161);
+    width: 40%;
+}
+.main .btn1{
+    height: 55px;
+    width: 138px;
+    background-color:rgb(136, 25, 161);
+    color: white;
+    outline: none;
+    border: none;
+    font-weight: bold;
+    border-radius: 5px;
+}
+.main .btn1:hover{
+    background-color: rgb(70, 10, 84);
+    transition: 0.5s;
+}
+.main .btn2{
+    height: 55px;
+    width: 138px;
+    background-color:white;
+    color: rgb(136, 25, 161);
+    outline: none;
+    border: 1px solid rgb(136, 25, 161);
+    font-weight: bold;
+    border-radius: 5px;
+}
+.main .btn2:hover{
+    background-color: rgb(136, 25, 161);
+    transition: 0.5s;
+    color: white;
+}
+.about img{
+   height: 90%;
+   width:90%;
+}
+h1{
+    font-size: 3rem;
+    font-weight: 600;
+}
+h4{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 700;
+   
+}
+.bt1{
+    height: 40px;
+    width: 145px;
+    outline: none;
+    border: none;
+    background-color: rgb(136, 25, 161);
+    color: white;
+    border-radius: 4px;
+}
+.bt1:hover{
+    background-color: transparent;
+    color: black;
+    border: 1px solid black;
+    transition: 0.5s;
+}
+.card{
+    border: none;
+    outline: none;
+}
+.card p{
+    color: grey;
+}
+.circle{
+    height: 70px;
+    width: 70px;
+    background-color:lightgrey ;
+    color: black;
+    padding: 12px;
+    font-size: 30px;
+    border-radius: 50%;
+    display: inline-block;
+    margin-bottom: 20px;
+}
+.card:hover .circle{
+    background-color: black;
+    color: white;
+    transition: 0.5s;
+
+}
+.contact .bt3{
+    background-color:rgb(136, 25, 161);
+    color: white;
+    outline: none;
+    border: none;
+    height: 40px;
+    width:140px;
+    border-radius: 4px;
+}
+.circle:hover{
+    background-color: black;
+
+    color: white;
+}
+.bt3:hover{
+    background: transparent;
+    color: black;
+    transition: 0.44s;
+    border:1px solid black
+}
+footer{
+    background-color: black;
+    color: lightgray;
+}
+.social-icons{
+    margin-right: 30px;
+}
+.social-icons a{
+    text-decoration: none;
+    font-size: 30px;
+    color: rgb(136, 25, 161);
+    display: inline-block;
+    transition: 0.5s;
+    margin: 10px;
+}
+.social-icons a:hover{
+    background:transparent;
+    color: black;
+}
